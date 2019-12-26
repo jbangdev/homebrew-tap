@@ -1,8 +1,8 @@
 class JBang < Formula
   desc "jbang"
   homepage "https://github.com/maxandersen/jbang"
-  url "https://github.com/maxandersen/jbang/releases/download/v0.0.4.2/jbang-0.0.4.2.zip"
-  sha256 "3de5df7b0e1760bb5a56bfc7a8068d6d930cd3f80a20205d9c6efb969c07ba29"
+  url "https://github.com/maxandersen/jbang/releases/download/v0.0.5.3/jbang-0.0.5.3.zip"
+  sha256 "6d4868918d6d132311df960b51ace061e658bf7d889824a5b7724abc4e926fec"
 
   def install
     libexec.install Dir["*"]
