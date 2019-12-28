@@ -1,12 +1,14 @@
 class Jbang < Formula
-  desc "jbang"
-  homepage "https://github.com/maxandersen/jbang"
-  url "https://github.com/maxandersen/jbang/releases/download/v0.0.6/jbang-0.0.6.zip"
-  sha256 "4f21d300aa9eacc6478b71aa04a126446baf580a0990724ad850073ddbb74145"
-
-  def install
-    libexec.install Dir["*"]
-    inreplace "#{libexec}/bin/kscript", /^jarPath=.*/, "jarPath=#{libexec}/bin/jbang.jar"
-    bin.install_symlink "#{libexec}/bin/jbang"
+    desc "jbang"
+    homepage "https://github.com/maxandersen/jbang"
+    url "https://github.com/maxandersen/jbang/releases/download/v0.0.10.3/jbang-0.0.10.3.zip"
+    sha256 "2328f71342b5c9562ee7a17884daa9dca4d35b72d1b2b3a9cddf9f979d5563ec"
+  
+    #depends_on cask:"java"
+  
+    def install
+      libexec.install Dir["*"]
+      inreplace "#{libexec}/bin/jbang", /^jarPath=.*/, "jarPath=#{libexec}/bin/jbang.jar"
+      bin.install_symlink "#{libexec}/bin/jbang"
+    end
   end
-end
