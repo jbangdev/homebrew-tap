@@ -1,8 +1,8 @@
 class Jbang < Formula
     desc "jbang"
     homepage "https://github.com/maxandersen/jbang"
-    url "https://github.com/maxandersen/jbang/releases/download/v0.9.4/jbang-0.9.4.zip"
-    sha256 "5e5b1b599ea7df83ed6fd0acf7a8f7de7bb169480bf381bd699c515c93262a86"
+    url "https://github.com/maxandersen/jbang/releases/download/v0.10.0/jbang-0.10.0.zip"
+    sha256 "08462253d1f69d577e2e767abec4e1054bcac2d2a13afb912c3db98cb25ffc4d"
   
     #depends_on cask:"java"
   
