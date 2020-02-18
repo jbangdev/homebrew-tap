@@ -8,7 +8,7 @@ Or `brew tap maxandersen/jbang` and then `brew install <formula>`.
 Or install via URL (which will not receive updates):
 
 ```
-brew install https://raw.githubusercontent.com/maxandersen/homebrew-jbang/master/Formula/<formula>.rb
+brew install https://raw.githubusercontent.com/maxandersen/homebrew-tap/master/Formula/<formula>.rb
 ```
 
 ## Documentation
