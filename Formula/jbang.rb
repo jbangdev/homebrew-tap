@@ -4,12 +4,12 @@ class Jbang < Formula
     url "https://github.com/jbangdev/jbang/releases/download/v0.45.0/jbang-0.45.0.zip"
     sha256 "ba6bcb91765f5d41df7862d34013ce9691f5dd84717a7ced9bd63e2dcd83719b"
 
-    bottle :unneeded
+#    bottle :unneeded
 
-    keg_only :versioned_formula
+#    keg_only :versioned_formula
 
     #depends_on cask:"java"
-    depends_on :java => "1.8+"
+ #   depends_on :java => "1.8+"
 
     def install
       libexec.install Dir["*"]
