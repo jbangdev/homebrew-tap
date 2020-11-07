@@ -1,12 +1,10 @@
 class Jbang < Formula
     desc "Unleash the power of Java for shell scripting"
     homepage "https://jbang.dev"
-    url "https://github.com/jbangdev/jbang/releases/download/v0.52.1/jbang-0.52.1.zip"
-    sha256 "82fe6639fbfc3177a0ec3287e67992e5649ade14816cf9cf95c04db4e37860f1"
+    url "https://github.com/jbangdev/jbang/releases/download/v0.53.0/jbang-0.53.0.zip"
+    sha256 "ac4b7046fbd5ad0b93d5bac74ab710bbe2a427c391b6282911bd3544051600a6"
 
     bottle :unneeded
-
-    keg_only :versioned_formula
 
     #depends_on cask:"java"
     depends_on :java => "1.8+"
