@@ -1,13 +1,13 @@
 class Jbang < Formula
     desc "Unleash the power of Java for shell scripting"
     homepage "https://jbang.dev"
-    url "https://github.com/jbangdev/jbang/releases/download/v0.53.2/jbang-0.53.2.zip"
-    sha256 "c10671ea69e2317ed1e135c4de83e7a6264a9f7091f776c85af4a77e6987908b"
+    url "https://github.com/jbangdev/jbang/releases/download/v0.54.0/jbang-0.54.0.zip"
+    sha256 "e9381322ade8675559ba61565f3a3103a3397f7ef0a8641377fd043b340f922a"
 
     bottle :unneeded
 
     #depends_on cask:"java"
-    depends_on :java => "1.8+"
+    #depends_on :java => "1.8+"
 
     def install
       libexec.install Dir["*"]
