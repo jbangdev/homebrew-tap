@@ -1,8 +1,8 @@
 class Jbang < Formula
     desc "Unleash the power of Java"
     homepage "https://jbang.dev"
-    url "https://github.com/jbangdev/jbang/releases/download/v0.66.1/jbang-0.66.1.zip"
-    sha256 "138db3d0a67305a5a00d083cc2884d92763732061273ffd1e46d60b408f3fe50"
+    url "https://github.com/jbangdev/jbang/releases/download/v0.67.0/jbang-0.67.0.zip"
+    sha256 "bae0df5c7d57194463649af2740cdec37da22446b744d5719c9042959f948a7d"
 
     bottle :unneeded
 
