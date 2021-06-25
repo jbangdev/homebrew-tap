@@ -1,8 +1,8 @@
 class Jbang < Formula
     desc "Unleash the power of Java"
     homepage "https://jbang.dev"
-    url "https://github.com/jbangdev/jbang/releases/download/v0.71.1/jbang-0.71.1.zip"
-    sha256 "fefc5258d80c12ab67ba75332f529ca26ce9688c9a5e506a9519139fb14c846d"
+    url "https://github.com/jbangdev/jbang/releases/download/v0.72.0/jbang-0.72.0.zip"
+    sha256 "bf1957823fbc3733d4049a31a1bd7279836e01f5c7a86c95dca2d96b4b72205a"
 
     bottle :unneeded
 
@@ -11,7 +11,7 @@ class Jbang < Formula
 
     def install
       libexec.install Dir["*"]
-      inreplace "#{libexec}/bin/jbang", /^abs_jbang_dir=.*/, "abs_jbang_dir=#{libexec}/bin/jbang.jar"
+      inreplace "#{libexec}/bin/jbang", /^abs_jbang_dir=.*/, "abs_jbang_dir=#{libexec}/bin"
       bin.install_symlink "#{libexec}/bin/jbang"
     end
 
