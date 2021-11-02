@@ -6,8 +6,6 @@ class Jbang < Formula
   sha256 "ae809bd5cbce14d492e6237c04039bcbd4e2833ecdce294e8205cc358135f5cc"
   license "MIT"
 
-  bottle :unneeded
-
 
   def install
     libexec.install Dir["*"]
