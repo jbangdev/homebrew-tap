@@ -1,15 +1,15 @@
 class Jbang < Formula
   desc "Unleash the power of Java"
   homepage "https://jbang.dev"
-  version "0.83.0"
-  url "https://github.com/jbangdev/jbang/releases/download/v0.83.0/jbang-0.83.0.zip"
-  sha256 "31023e92c6ffe0b6599d8a0d2239f18165e0c5653689350a7b3a7d97092c842b"
+  version "0.83.1"
+  url "https://github.com/jbangdev/jbang/releases/download/v0.83.1/jbang-0.83.1.zip"
+  sha256 "78a144db5fe208f024cd21b70ce7145f67525ad129194df62efc7e1c5c7f0d55"
   license "MIT"
 
 
   def install
     libexec.install Dir["*"]
-    inreplace "#{libexec}/bin/jbang", /^abs_jbang_dir=.*/, "abs_jbang_dir=#{libexec}/bin/jbang.jar"
+    inreplace "#{libexec}/bin/jbang", /^abs_jbang_dir=.*/, "abs_jbang_dir=#{libexec}/bin"
     bin.install_symlink "#{libexec}/bin/jbang"
   end
 
