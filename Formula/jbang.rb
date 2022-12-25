@@ -14,7 +14,7 @@ class Jbang < Formula
   end
 
   test do
-      system "#{bin}/jbang", "--init=cli", "hello.java"
+      system "#{bin}/jbang", "init", "--template=cli", "hello.java"
       system "#{bin}/jbang", "hello.java", "Homebrew!"
   end
 end
