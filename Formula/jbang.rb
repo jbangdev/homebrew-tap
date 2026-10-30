@@ -1,9 +1,9 @@
 class Jbang < Formula
   desc "Unleash the power of Java"
   homepage "https://jbang.dev"
-  version "0.142.0"
-  url "https://github.com/jbangdev/jbang/releases/download/v0.142.0/jbang-0.142.0.zip"
-  sha256 "8bee0bd035344cc46322aff7117ec475d48cefe37f2a79ff2c6ee3db577bb070"
+  version "0.143.0"
+  url "https://github.com/jbangdev/jbang/releases/download/v0.143.0/jbang-0.143.0.zip"
+  sha256 "301c5ef16a7b2a4725515477b03f11f491501eb6db57adfa59393433d4d8f3b2"
   license "MIT"
 
 
